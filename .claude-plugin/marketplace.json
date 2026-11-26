@@ -1,0 +1,27 @@
+{
+  "name": "intelligenza-umana",
+  "owner": { "name": "Intelligenza Umana", "url": "https://github.com/fabiozagaria/intelligenza-umana" },
+  "metadata": { "description": "Claude Code plugins by Intelligenza Umana. Human intelligence. Artificial assistance." },
+  "plugins": [
+    {
+      "name": "spring-security-advisor",
+      "source": { "source": "git-subdir", "url": "https://github.com/Intelligenza-Umana/iu-spring-security-advisor.git", "path": "plugins/spring-security-advisor" },
+      "description": "Security audit for Spring Boot: rule scanner, guided checklist and a deterministic 0-100 score with official sources."
+    },
+    {
+      "name": "learning-ledger",
+      "source": { "source": "git-subdir", "url": "https://github.com/Intelligenza-Umana/iu-learning-ledger.git", "path": "plugins/learning-ledger" },
+      "description": "Guided learning with AI: explain, pair, quiz, practice, and a local ledger that caps mastery by evidence."
+    },
+    {
+      "name": "iu-model-router",
+      "source": { "source": "github", "repo": "Intelligenza-Umana/iu-model-router" },
+      "description": "Task-aware model routing for coding agents."
+    },
+    {
+      "name": "iu-project-lifecycle",
+      "source": { "source": "github", "repo": "Intelligenza-Umana/iu-project-lifecycle-skill" },
+      "description": "Project context, lifecycle and handoff workflow for coding agents."
+    }
+  ]
+}
