@@ -23,6 +23,6 @@ Installing a plugin downloads it from its own repository at the default branch. 
 
 ## Maintenance
 
-Run `claude plugin validate .` after editing `.claude-plugin/marketplace.json`. The marketplace has no version of its own; a plugin's version is the one in its own `plugin.json`.
+Run `claude plugin validate . --strict` after editing `.claude-plugin/marketplace.json`; the same check runs in CI on every push and pull request. The marketplace has no version of its own; a plugin's version is the one in its own `plugin.json`.
 
 Distributed under the [MIT license](LICENSE).
