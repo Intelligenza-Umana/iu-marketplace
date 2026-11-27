@@ -1,7 +1,7 @@
 {
   "name": "intelligenza-umana",
-  "owner": { "name": "Intelligenza Umana", "url": "https://github.com/fabiozagaria/intelligenza-umana" },
-  "metadata": { "description": "Claude Code plugins by Intelligenza Umana. Human intelligence. Artificial assistance." },
+  "owner": { "name": "Intelligenza Umana", "url": "https://github.com/Intelligenza-Umana/intelligenza-umana" },
+  "metadata": { "description": "Claude Code marketplace for Intelligenza Umana plugins for Spring Security, learning, project lifecycle and model routing." },
   "plugins": [
     {
       "name": "spring-security-advisor",
