@@ -2,7 +2,7 @@
 
 *Human intelligence. Artificial assistance.*
 
-A single [Claude Code](https://claude.com/claude-code) marketplace for the plugins of [Intelligenza Umana](https://github.com/fabiozagaria/intelligenza-umana). It only lists them: each plugin lives, is versioned and is tested in its own repository.
+A single [Claude Code](https://claude.com/claude-code) marketplace for the plugins of [Intelligenza Umana](https://github.com/Intelligenza-Umana/intelligenza-umana). It only lists them: each plugin lives, is versioned and is tested in its own repository.
 
 ## Add the marketplace
 
