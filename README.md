@@ -12,10 +12,10 @@ claude plugin marketplace add Intelligenza-Umana/iu-marketplace
 
 ## Plugins
 
-The [marketplace manifest](.claude-plugin/marketplace.json) is the authoritative plugin catalog, so this README does not duplicate its entries. Browse the marketplace in Claude Code after adding it, then use:
+The [marketplace manifest](.claude-plugin/marketplace.json) is the authoritative plugin catalog, so this README does not duplicate its entries. Browse the marketplace in Claude Code after adding it, then use the plugin name. For example, install Learning Ledger with:
 
 ```sh
-claude plugin install <plugin-name>@intelligenza-umana
+claude plugin install learning-ledger@intelligenza-umana
 ```
 
 For the full organization project catalog, [browse GitHub repositories](https://github.com/Intelligenza-Umana?tab=repositories).
