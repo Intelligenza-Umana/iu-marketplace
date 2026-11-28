@@ -12,12 +12,13 @@ claude plugin marketplace add Intelligenza-Umana/iu-marketplace
 
 ## Plugins
 
-| Plugin | Install | What it does |
-|---|---|---|
-| [spring-security-advisor](https://github.com/Intelligenza-Umana/iu-spring-security-advisor) | `claude plugin install spring-security-advisor@intelligenza-umana` | Security audit for Spring Boot with a deterministic 0-100 score. |
-| [learning-ledger](https://github.com/Intelligenza-Umana/iu-learning-ledger) | `claude plugin install learning-ledger@intelligenza-umana` | Guided learning and a local ledger that caps mastery by evidence. |
-| [iu-model-router](https://github.com/Intelligenza-Umana/iu-model-router) | `claude plugin install iu-model-router@intelligenza-umana` | Task-aware model routing for coding agents. |
-| [iu-project-lifecycle](https://github.com/Intelligenza-Umana/iu-project-lifecycle-skill) | `claude plugin install iu-project-lifecycle@intelligenza-umana` | Project context, lifecycle and handoff workflow. |
+The [marketplace manifest](.claude-plugin/marketplace.json) is the authoritative plugin catalog, so this README does not duplicate its entries. Browse the marketplace in Claude Code after adding it, then use:
+
+```sh
+claude plugin install <plugin-name>@intelligenza-umana
+```
+
+For the full organization project catalog, [browse GitHub repositories](https://github.com/Intelligenza-Umana?tab=repositories).
 
 Installing a plugin downloads it from its own repository at the default branch. Read a plugin's README and code before using it.
 
